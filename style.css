@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f2;
+    margin: 0;
+    color: #333;
+}
+
+h1 {
+    background-color: #164b35;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+h2, h3 {
+    color: #164b35;
+}
+
+.container {
+    width: 80%;
+    margin: 25px auto;
+}
+
+.navigation {
+    background-color: white;
+    padding: 12px;
+}
+
+a {
+    color: #164b35;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.products {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+}
+
+.emoji {
+    font-size: 35px;
+}
+
+.price {
+    color: #164b35;
+    font-weight: bold;
+}
+
+.form-container {
+    background-color: white;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button, .button-link {
+    background-color: #164b35;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+button:hover, .button-link:hover {
+    background-color: #26734d;
+}
+
+.message {
+    color: #164b35;
+}
