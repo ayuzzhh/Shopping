@@ -38,3 +38,8 @@ CREATE TABLE orders (
 
 1. Clear-History 
 2. Remove-Item (Get-PSReadLineOption).HistorySavePath -Force
+
+## To add Image :- 
+
+<img src="images/<?php echo $product['image']; ?>"
+     width="180" height="150">
